@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+
+<html>
+    <head> 
+       <title> Quiz para fãs de Outerbanks </title>
+       <meta name="description" content="Teste seus conhecimentos em OBX com este quiz!">
+       <meta name="author" content="Cleiton Santos">
+       <meta name="keywords" content="quiz">
+       <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+       <header>
+          <h1 style="color: orange; font-size: 50px">Quiz de Outerbanks</h1>
+       </header>
+       <main>
+          <!--Introdução-->
+          <section>
+             <p>Contem perguntas interativas sobre a série <Strong>Outerbanks</Strong> para ver seu nível em conhecimento da série!
+             Voce pode conferir seus resultados no fim do quiz e compartilhar com seus amigos! Há também uma tabela com avaliações de acertos, se divirta!</p>
+          </section>
+          <!--Pergunta 1: múltipla escolha-->
+          <section>
+              <h2>PERGUNTA 1 - Em qual temporada eles foram para Poguelandia?</h2>
+              <form>
+                 <input type="radio" value="2°temporada" id="p1a" name="pergunta1">
+                 <label for="p1a">A) Temporada 2</label><br>
+                 <input type="radio" value="1°temporada" id="p1b" name="pergunta1">
+                 <label for="p1b">B) Temporada 1</label><br>
+                 <input type="radio" value="3°temporada" id="p1c" name="pergunta1">
+                 <label for="p1c">C) Temporada 3</label>
+              </form>
+          </section><br>
+          <!--Pergunta 2:texto-->
+          <section>
+               <h2>PERGUNTA 2 - Qual dos pogues tomou um tiro?</h2>
+               <form>
+                  <input type="text" id="p2" name="pergunta2" placeholder="Digite sua resposta aqui...">
+               </form>
+          </section><br>
+          <!--Pergunta 3: data-->
+          <section>
+             <h2>PERGUNTA 3 - Quando lançou a 3ª temporada de Outer Banks?</h2>
+             <p>Apenas o ano, não importa o mes/dia.</p>
+             <form>
+                <input type="date" id="p3" name="pergunta3"
+             </form>
+          </section><br>
+          <!--Pergunta 4 - seleção múltipla-->
+          <section>
+             <h2>PERGUNTA 4 - Qual desses lugares aparecem em Outer Banks?</h2>
+             <form>
+                <input type="checkbox" id="p4a" name="pergunta4" value="Barbados">
+                <label for="p4a">Barbados</label><br>
+                <input type="checkbox" id="p4b" name="pergunta4" value="Chile">
+                <label for="p4b">Chile</label><br>
+                <input type="checkbox" id="p4c" name="pergunta4" value="Estados Unidos">
+                <label for="p4c">Estados Unidos</label><br>
+                <input type="checkbox" id="p4d" name="pergunta4" value="Bahamas">
+                <label for="p4d">Bahamas</label><br>
+                <input type="checkbox" id="p4e" name="pergunta4" value="Canadá">
+                <label for="p4e">Canadá</label><br>
+             </form>
+          </section><br>
+          <!--Pergunta 5 - imagem-->
+          <section>
+             <h2>PERGUNTA 5 - A qual cena essa imagem se refere?</h2>
+             <img src="_image.webp" alt="Cena de dois personagens de Outer Banks.">
+             <form>
+                <input type="radio" value="carta" id="p5a" name="pergunta5">
+                <label for="p54">A) Cena em que JJ vai entregar uma carta do Jhon B para Sarah.</label><br>
+                <input type="radio" value="dança" id="p5b" name="pergunta5">
+                <label for="p5b">B) Cena em que JJ e Sarah estão dançando.</label><br>
+                <input type="radio" value="pergunta" id="p5c" name="pergunta5">
+                <label for="p5c">C) Cena em que Sarah pergunta do Jhon B para JJ.</label><br>
+             </form>
+          </section>
+          <!--Tabela de Pontuação-->
+          <section>
+             <h2 style="color: blue"><em>Tabela de Pontuação</em></em></h2>
+             <table border="1">
+              <thead>
+                 <tr>
+                    <th>Pontuação</th>
+                    <th>Avaliação</th>
+                 </tr>
+              </thead>
+              <tbody>
+                <tr>
+                   <td>0-2</td>
+                   <td>Talvez voce assistiu de olhos fechados!</td>
+                </tr>
+                <tr>
+                   <td>3-5</td>
+                   <td>Tem um tempinho que assistiu, hein?</td>
+                </tr>
+                <tr>
+                   <td>6-8</td>
+                   <td>Voce se saiu bem! Já pode trabalhar na produção da T4!</td>
+                </tr>
+                <tr>
+                   <td>9-10</td>
+                   <td>Pelo visto alguém andou maratonando...</td>
+                </tr>
+              </tbody>
+             </table>
+          </section><br>
+          <!--Gabarito-->
+          <section>
+             <h2 style="color: purple">Verifique se suas respostas estão corretas!</h2>
+             <details>
+                <summary><strong>Clique aqui para ver as respostas.</strong></summary>
+                    <ol>
+                    <li>C)</li>
+                    <li>Sarah</li>
+                    <li>2021</li>
+                    <li>Barbados, Estados Unidos e Bahamas.</li>
+                    <li>A)</li>
+                    </ol>
+             </details>
+          </section>
+       </main>
+       <footer>
+          <p style="color: red"><i>&copy Quiz feito no formato da Rafaella Ballerini</i></p>
+       </footer>
+    </body>
+</html>
